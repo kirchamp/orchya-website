@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Orchya Tech Limited</title>
+<meta name="description" content="Get in touch with Orchya Tech Limited — London-based project, technology and human capital consulting.">
+<meta name="robots" content="index, follow">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://formspree.io; form-action 'self' https://formspree.io; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+<link rel="canonical" href="https://www.orchya.co.uk/contact.html">
+<link rel="icon" type="image/svg+xml" href="/assets/img/favicon.svg">
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="logo" href="/"><img class="logo-mark" src="/assets/img/mark.svg" alt="" width="22" height="22">ORCHYA<span class="dot">.</span></a>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/services.html">Services</a></li>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/contact.html" aria-current="page">Contact</a></li>
+    </ul>
+    <div class="nav-cta"><a class="btn btn-primary" href="/contact.html">Talk to Us</a></div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="page-hero">
+    <div class="container">
+      <div class="eyebrow">Contact</div>
+      <h1>Let's talk about what you're building.</h1>
+      <p>Reach us directly, or send a message using the form — we aim to respond within one business day.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="panel">
+        <h2 class="mt-0">Send a message</h2>
+        <form id="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+          <div class="form-field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required maxlength="120">
+          </div>
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" autocomplete="email" required maxlength="200">
+          </div>
+          <div class="form-field">
+            <label for="company">Company (optional)</label>
+            <input type="text" id="company" name="company" autocomplete="organization" maxlength="150">
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required maxlength="4000"></textarea>
+          </div>
+          <!-- Honeypot field: hidden from real users, catches basic bots. Formspree ignores real submissions with this filled. -->
+          <div class="form-field honeypot" aria-hidden="true">
+            <label for="_gotcha">Leave this field empty</label>
+            <input type="text" id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+          </div>
+          <button type="submit" class="btn btn-primary">Send Message</button>
+          <p class="form-status" id="form-status" role="status"></p>
+          <p class="form-note">This form is handled by Formspree. We only use your details to respond to your enquiry — see our <a href="/privacy.html">Privacy Policy</a>.</p>
+        </form>
+      </div>
+
+      <div>
+        <ul class="contact-list">
+          <li>
+            <div class="label">Email</div>
+            <div class="value"><a href="mailto:rskiran79@gmail.com">rskiran79@gmail.com</a></div>
+          </li>
+          <li>
+            <div class="label">Phone</div>
+            <div class="value"><a href="tel:+447787030982">+44 7787 030982</a></div>
+          </li>
+          <li>
+            <div class="label">Registered office</div>
+            <div class="value">167-169, Great Portland Street, 5th Floor<br>London, W1W 5PF<br>United Kingdom</div>
+          </li>
+          <li>
+            <div class="label">Director</div>
+            <div class="value">Mr Kiran Rangaiah Shashi</div>
+          </li>
+        </ul>
+        <div style="margin-top:20px;">
+          <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&amp;query=167-169+Great+Portland+Street+London+W1W+5PF" target="_blank" rel="noopener noreferrer">Get directions ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Orchya Tech Limited</h4>
+        <p>167-169, Great Portland Street, 5th Floor, London, W1W 5PF, United Kingdom.</p>
+      </div>
+      <div>
+        <h4>Navigate</h4>
+        <ul>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/contact.html">Contact</a></li>
+          <li><a href="/privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:rskiran79@gmail.com">rskiran79@gmail.com</a></li>
+          <li><a href="tel:+447787030982">+44 7787 030982</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Orchya Tech Limited. All rights reserved.</span>
+      <span>Company formed 05 August 2026 · England &amp; Wales</span>
+    </div>
+  </div>
+</footer>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>

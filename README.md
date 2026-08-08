@@ -16,10 +16,15 @@ privacy.html        Privacy policy
 assets/css/style.css
 assets/js/main.js
 assets/img/         favicon.svg, mark.svg (logo)
+assets/fonts/       Barlow Condensed (self-hosted, OFL license — see Design below)
 CNAME               Custom domain for GitHub Pages
 robots.txt, sitemap.xml
 .well-known/security.txt   Security contact (RFC 9116)
 ```
+
+## Design
+
+The layout is inspired by the *mechanics* of F1's live-timing UI (formula1.com/en/timing/f1-live-lite) — a stacked utility/nav/live-data-strip header, diagonal stripe texture, bold condensed uppercase type, pill buttons, a single sparing accent color, and dense divider-row data panels. None of Formula 1's actual assets are used: no F1 logo, no FIA/team branding, no photography, and not their licensed typeface. Headings use **Barlow Condensed** (weights 600/700/800), an open-source (SIL Open Font License) Google Font, self-hosted under `assets/fonts/` so the site makes zero third-party requests. The header's "London Time" readout is a genuine live clock (`Intl`/`Date`, updated client-side every second), not a decorative fake.
 
 ## Local preview
 

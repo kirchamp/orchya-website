@@ -18,6 +18,21 @@
     yearEl.textContent = String(new Date().getFullYear());
   }
 
+  // Live London clock in the header strip — a real clock, not a decorative fake.
+  var clockEl = document.getElementById('clock-local');
+  if (clockEl) {
+    var updateClock = function () {
+      clockEl.textContent = new Date().toLocaleTimeString('en-GB', {
+        timeZone: 'Europe/London',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit'
+      });
+    };
+    updateClock();
+    setInterval(updateClock, 1000);
+  }
+
   // Contact form: progressive enhancement via fetch, falls back to normal
   // POST navigation if JS is disabled or the request fails.
   var form = document.getElementById('contact-form');

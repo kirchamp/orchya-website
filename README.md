@@ -95,7 +95,7 @@ GitHub Pages forces HTTPS and sits behind GitHub's own infrastructure (which abs
 The form in `contact.html` posts to `https://formspree.io/f/YOUR_FORM_ID` — that's a placeholder, it won't send anything yet.
 
 1. Go to formspree.io and create a free account yourself (I can't create accounts on your behalf).
-2. Create a new form, set the delivery email to `rskiran79@gmail.com`.
+2. Create a new form, set the delivery email to `kiran@orchya.co.uk`.
 3. Copy the form ID Formspree gives you (looks like `xayzabcd`).
 4. In `contact.html`, replace `YOUR_FORM_ID` in the `<form action="...">` line with your real ID.
 5. Formspree's free tier includes basic spam filtering; the form also has a honeypot field (`_gotcha`) built in for extra bot protection.

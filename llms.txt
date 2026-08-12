@@ -1,0 +1,33 @@
+# Orchya Tech Limited
+
+> London-based consulting firm operating across seven practice areas: project consulting, tech people consulting, human capital consulting, digital & AI transformation, product development, training & certification, and events.
+
+Orchya Tech Limited was incorporated on 05 August 2026 in England & Wales and is headquartered in London. It is founder-led by Mr Kiran Rangaiah Shashi (Director), an AI Architect with 18+ years in financial services technology, including nine years delivering enterprise AI and data platforms for a global wealth management bank, and recognition including a WealthTech Award in 2026.
+
+## Company details
+
+- Legal name: Orchya Tech Limited
+- Incorporated: 05 August 2026
+- Jurisdiction: England & Wales
+- Registered office: 167-169 Great Portland Street, 5th Floor, London, W1W 5PF, United Kingdom
+- Director: Mr Kiran Rangaiah Shashi
+- Email: kiran@orchya.co.uk
+- Phone: +44 7787 030982
+
+## Practice areas
+
+- **Project Consulting** — PMO design and set-up, programme and delivery leadership, governance and reporting frameworks, vendor and supplier management.
+- **Tech People Consulting** — Contract and interim technical resourcing, permanent hire search for engineering leadership, technical vetting, workforce strategy.
+- **Human Capital Consulting** — Organisational design and restructuring, workforce planning, HR operating model and transformation, leadership advisory.
+- **Digital & AI Transformation** — Digital and AI strategy and roadmapping, applied AI and automation delivery, legacy modernisation, data operating model design.
+- **Product Development** — Product strategy and discovery, MVP and platform engineering delivery, UX/UI and architecture support, launch and scale support.
+- **Training & Certification** — Technical bootcamps and upskilling programmes, certification pathway design, corporate learning partnerships.
+- **Events** — Executive roundtables and briefings, industry and community meetups, panel and speaker programme curation.
+
+## Pages
+
+- [Home](https://www.orchya.co.uk/): Overview and practice areas
+- [Services](https://www.orchya.co.uk/services.html): Full detail on all seven practice areas
+- [About](https://www.orchya.co.uk/about.html): Company story, the Orchya name, leadership, company details
+- [Contact](https://www.orchya.co.uk/contact.html): Contact form and direct details
+- [Privacy Policy](https://www.orchya.co.uk/privacy.html): Data handling practices

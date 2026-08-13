@@ -126,8 +126,8 @@ h1 { color: var(--text); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 .util-tag {
   color: var(--text-faint);
@@ -155,7 +155,7 @@ h1 { color: var(--text); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 0;
+  padding: 10px 0;
 }
 .logo {
   display: flex;
@@ -222,8 +222,8 @@ h1 { color: var(--text); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 9px;
-  padding-bottom: 9px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   font-family: var(--mono);
   font-size: 0.78rem;
 }
@@ -540,14 +540,14 @@ h1 { color: var(--text); }
 .site-footer {
   border-top: 1px solid var(--border);
   background: var(--bg-alt);
-  padding: 48px 0 28px;
-  margin-top: 40px;
+  padding: 32px 0 20px;
+  margin-top: 28px;
 }
 .footer-grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr 1fr;
-  gap: 32px;
-  margin-bottom: 32px;
+  gap: 24px;
+  margin-bottom: 22px;
 }
 @media (max-width: 700px) { .footer-grid { grid-template-columns: 1fr; } }
 .footer-grid h4 { font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.6px; color: var(--text-faint); margin: 0 0 14px; }
@@ -556,7 +556,7 @@ h1 { color: var(--text); }
 .footer-grid p { color: var(--text-dim); font-size: 0.92rem; max-width: 320px; }
 .footer-bottom {
   border-top: 1px solid var(--border);
-  padding-top: 20px;
+  padding-top: 16px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;

@@ -127,3 +127,5 @@ git push
 ```
 
 GitHub Pages redeploys automatically within a minute or two of a push to `main`.
+
+**If the live site doesn't reflect your change after a few minutes**: Cloudflare (now that it's in front of the site) caches CSS/JS/image assets at its edge for up to 4 hours (`Cache-Control: max-age=14400`), separately from GitHub's own cache. A GitHub redeploy alone won't clear it. Fix: in Cloudflare, go to **Caching → Configuration → Purge Cache → Purge Everything** (or a Custom Purge for just the changed file's URL) to force it to pull the fresh version immediately.

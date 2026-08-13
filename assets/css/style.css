@@ -93,6 +93,20 @@ h1 { color: var(--accent); }
 .skip-link:focus { left: 0; }
 
 /* ---------- Header: 3-tier (utility / primary nav / live strip) ---------- */
+/* Header and footer use a steel-grey palette (referenced from an Octavia RS
+   paint sample) — scoped as custom-property overrides so every existing
+   selector that reads var(--text)/var(--panel)/etc. picks it up automatically. */
+.site-header, .site-footer {
+  --panel: #75787f;
+  --bg-alt: #63666d;
+  --border: rgba(255, 255, 255, 0.16);
+  --text: #ffffff;
+  --text-dim: #d8dade;
+  --text-faint: #adb0b8;
+  --accent: #2be3c8;
+  --accent2: #ffb541;
+}
+
 .site-header {
   position: sticky;
   top: 0;

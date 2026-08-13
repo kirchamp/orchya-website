@@ -36,6 +36,10 @@
   --accent-dim: #0b8272;
   --accent2: #8a4700;
   --danger: #d13c3c;
+  --vedic-o: #0f8a6e;
+  --vedic-y: #2f3a8c;
+  --vedic-a: #8a4700;
+  --vedic-gold: #b8860b;
   --radius: 10px;
   --mono: 'Consolas', 'SFMono-Regular', 'Cascadia Mono', Menlo, monospace;
   --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
@@ -365,6 +369,8 @@ h1 { color: var(--accent); }
 }
 .stat { border-left: 2px solid var(--accent); padding-left: 16px; }
 .stat .stat-value { font-family: var(--mono); font-size: 1.8rem; color: var(--text); }
+.stat-gold { border-left-color: var(--vedic-gold); }
+.stat-gold .stat-value { color: var(--vedic-gold); }
 .stat .stat-label { color: var(--text-dim); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.6px; margin-top: 4px; }
 
 /* ---------- FAQ ---------- */
@@ -446,6 +452,7 @@ h1 { color: var(--accent); }
 .pillar {
   background: var(--panel);
   border: 1px solid var(--border);
+  border-top: 3px solid var(--pillar-color, var(--accent));
   border-radius: var(--radius);
   padding: 28px;
   position: relative;
@@ -460,9 +467,13 @@ h1 { color: var(--accent); }
   font-size: 4.5rem;
   font-weight: 700;
   line-height: 1;
-  color: var(--border);
+  color: var(--pillar-color, var(--border));
+  opacity: 0.14;
 }
-.pillar .pillar-sanskrit { font-family: var(--mono); color: var(--accent); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+.pillar .pillar-sanskrit { font-family: var(--mono); color: var(--pillar-color, var(--accent)); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 8px; }
+.pillar[data-letter="O"] { --pillar-color: var(--vedic-o); }
+.pillar[data-letter="Y"] { --pillar-color: var(--vedic-y); }
+.pillar[data-letter="A"] { --pillar-color: var(--vedic-a); }
 .pillar h3 { margin: 0 0 10px; font-size: 1.1rem; position: relative; }
 .pillar p { color: var(--text-dim); font-size: 0.92rem; margin: 0; position: relative; max-width: 90%; }
 

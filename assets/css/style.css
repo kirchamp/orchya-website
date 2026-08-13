@@ -156,7 +156,7 @@ h1 { color: var(--text); }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 8px 0;
+  padding: 8px 16px;
 }
 .logo {
   display: flex;
@@ -544,6 +544,7 @@ h1 { color: var(--text); }
   padding: 26px 0 18px;
   margin-top: 24px;
 }
+.site-footer .container { padding-left: 16px; padding-right: 16px; }
 .footer-grid {
   display: grid;
   grid-template-columns: 1.4fr 1fr 1fr;

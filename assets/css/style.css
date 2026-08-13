@@ -75,7 +75,7 @@ h1, h2, h3, .display {
   letter-spacing: 0.2px;
   line-height: 1.02;
 }
-h1 { color: var(--accent); }
+h1 { color: var(--text); }
 
 .container {
   max-width: var(--max-width);

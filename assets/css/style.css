@@ -238,9 +238,7 @@ h1, h2, h3, .display {
   .nav-links li { border-top: 1px solid var(--border); }
   .nav-links a { display: block; padding: 14px 0; border-bottom: none; }
   .nav-cta { display: none; }
-  .util-tag { display: none; }
-  .util-bar .container { justify-content: flex-end; }
-  .util-links li:not(.util-links-cta) { display: none; }
+  .util-bar { display: none; }
   .live-meta strong { display: none; }
 }
 

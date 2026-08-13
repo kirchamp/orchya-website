@@ -102,13 +102,14 @@ h1 { color: var(--text); }
    selector that reads var(--text)/var(--panel)/etc. picks it up automatically. */
 .site-header, .site-footer {
   --panel: #000000;
-  --bg-alt: #121417;
+  --bg-alt: #1c2028;
   --border: rgba(255, 255, 255, 0.16);
   --text: #ffffff;
   --text-dim: #d8dade;
   --text-faint: #adb0b8;
   --accent: #2be3c8;
   --accent2: #ffb541;
+  --stripe: repeating-linear-gradient(115deg, rgba(255,255,255,0.07) 0 2px, transparent 2px 14px);
 }
 
 .site-header {

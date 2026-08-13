@@ -155,7 +155,7 @@ h1 { color: var(--text); }
 .nav .container {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   padding: 8px 16px;
 }
 .logo {

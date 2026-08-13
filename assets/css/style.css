@@ -291,7 +291,7 @@ h1 { color: var(--text); }
 
 /* ---------- Hero ---------- */
 .hero {
-  padding: 88px 0 64px;
+  padding: 40px 0 56px;
   position: relative;
   background:
     radial-gradient(600px 300px at 85% -10%, rgba(14, 158, 136, 0.10), transparent 60%),
@@ -583,7 +583,7 @@ h1 { color: var(--text); }
 .profile-avatar-lg { width: 80px; height: 80px; font-size: 1.4rem; }
 .profile-name-lg { font-size: 1.15rem; }
 .page-hero {
-  padding: 64px 0 40px;
+  padding: 36px 0 32px;
   border-bottom: 1px solid var(--border);
 }
 .page-hero h1 { font-size: clamp(1.9rem, 3.6vw, 2.6rem); margin: 0 0 14px; }

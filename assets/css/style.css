@@ -71,6 +71,7 @@ h1, h2, h3, .display {
   letter-spacing: 0.2px;
   line-height: 1.02;
 }
+h1 { color: var(--accent); }
 
 .container {
   max-width: var(--max-width);
@@ -274,7 +275,7 @@ h1, h2, h3, .display {
 }
 .eyebrow {
   font-family: var(--mono);
-  color: var(--accent);
+  color: var(--accent2);
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 0.82rem;

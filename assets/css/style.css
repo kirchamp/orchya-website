@@ -34,7 +34,7 @@
   --text-faint: #7d8494;
   --accent: #0e9e88;
   --accent-dim: #0b8272;
-  --accent2: #c97b00;
+  --accent2: #8a4700;
   --danger: #d13c3c;
   --radius: 10px;
   --mono: 'Consolas', 'SFMono-Regular', 'Cascadia Mono', Menlo, monospace;
@@ -261,7 +261,7 @@ h1 { color: var(--accent); }
 }
 .btn:hover { transform: translateY(-1px); }
 .btn-primary { background: var(--accent); color: #04120f; }
-.btn-primary:hover { background: var(--accent2); color: #1a1200; }
+.btn-primary:hover { background: var(--accent2); color: #ffffff; }
 .btn-ghost { background: transparent; border-color: var(--border); color: var(--text); }
 .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
 
@@ -271,7 +271,7 @@ h1 { color: var(--accent); }
   position: relative;
   background:
     radial-gradient(600px 300px at 85% -10%, rgba(14, 158, 136, 0.10), transparent 60%),
-    radial-gradient(500px 260px at 10% 10%, rgba(201, 123, 0, 0.07), transparent 60%);
+    radial-gradient(500px 260px at 10% 10%, rgba(138, 71, 0, 0.07), transparent 60%);
 }
 .eyebrow {
   font-family: var(--mono);
@@ -379,7 +379,7 @@ h1 { color: var(--accent); }
 
 /* ---------- CTA band ---------- */
 .cta-band {
-  background: linear-gradient(120deg, rgba(14,158,136,0.08), rgba(201,123,0,0.05));
+  background: linear-gradient(120deg, rgba(14,158,136,0.08), rgba(138,71,0,0.05));
   border-top: 1px solid var(--border);
   border-bottom: 1px solid var(--border);
   padding: 56px 0;

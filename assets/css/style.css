@@ -172,6 +172,7 @@ h1 { color: var(--text); }
 }
 .logo .dot { color: var(--accent); }
 .logo-mark { width: 24px; height: 24px; }
+.logo-img { height: 40px; background: #fff; padding: 4px 12px; border-radius: 8px; display: block; }
 .nav-links {
   display: flex;
   gap: 30px;

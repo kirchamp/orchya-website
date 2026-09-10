@@ -556,6 +556,20 @@ h1 { color: var(--text); }
 .footer-grid ul { list-style: none; padding: 0; margin: 0; }
 .footer-grid li { margin-bottom: 8px; color: var(--text-dim); }
 .footer-grid p { color: var(--text-dim); font-size: 0.92rem; max-width: 320px; }
+.whatsapp-float {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
+  z-index: 60;
+  transition: transform 0.15s ease;
+}
+.whatsapp-float:hover { transform: scale(1.08); }
+.whatsapp-float img { width: 100%; height: 100%; display: block; }
+
 .footer-bottom {
   border-top: 1px solid var(--border);
   padding-top: 14px;

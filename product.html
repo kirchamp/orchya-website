@@ -90,6 +90,167 @@
   <section class="section section-flush-top">
     <div class="container panel">
       <div class="section-head mb-0">
+        <h2>What is TokenFlow?</h2>
+      </div>
+      <p>Think of today's AI providers as crowded highways with strict toll booths. When your business or app sends a surge of requests — especially when multiple AI agents work together — the highway jams, the booth shuts the gate, and you get a <strong>"Too Many Requests"</strong> error. To avoid it, providers sell expensive "private lanes" that sit empty nights and weekends.</p>
+      <p><strong>TokenFlow is the intelligent traffic control system for that highway</strong> — it routes AI traffic across clear roads, absorbs traffic spikes without slowing down, and is built to keep AI apps running without crashing, while cutting AI spend.</p>
+    </div>
+  </section>
+
+  <section class="section section-flush-top">
+    <div class="container">
+      <div class="section-head">
+        <h2>Benchmark: enterprise impact*</h2>
+        <p>Without TokenFlow vs. with TokenFlow applied.</p>
+      </div>
+      <div class="panel panel-scroll">
+        <table class="compare-table">
+          <thead>
+            <tr><th>Metric</th><th>Without TokenFlow</th><th>With TokenFlow</th><th>Gain</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Reliability under load</td><td>❌ 38% of heavy tasks stall</td><td>✅ 99.99% seamless completion</td><td class="win">Zero dropped work</td></tr>
+            <tr><td>Peak traffic absorption</td><td>❌ Fails at normal limit (1.0x)</td><td>✅ Handles up to 5x traffic surges</td><td class="win">500% elastic headroom</td></tr>
+            <tr><td>Monthly AI spend waste</td><td>❌ Up to 70% paid on idle compute</td><td>✅ Pay only for active compute</td><td class="win">50–61% cost reduction</td></tr>
+            <tr><td>System crash rate (HTTP 429)</td><td>❌ Frequent during rush hours</td><td>✅ Virtually zero</td><td class="win">Peace of mind</td></tr>
+            <tr><td>Developer setup time</td><td>❌ Weeks of custom retry code</td><td>✅ One line of code change</td><td class="win">Instant integration</td></tr>
+            <tr><td>Data privacy &amp; control</td><td>⚠️ Data passes through 3rd parties</td><td>✅ 100% private, runs inside you</td><td class="win">Complete data ownership</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-flush-top">
+    <div class="container">
+      <div class="section-head">
+        <h2>Benchmark: traffic spike stress test*</h2>
+        <p>What happens when a heavy multi-agent task or campaign sends 5x normal volume.</p>
+      </div>
+      <div class="panel">
+        <div class="surge-demo">
+          <div class="surge-row">
+            <div class="surge-label"><span>Without TokenFlow — 5x surge</span><span>❌ Blocked (HTTP 429)</span></div>
+            <div class="surge-track"><div class="surge-fill blocked w-20"></div></div>
+          </div>
+          <div class="surge-row">
+            <div class="surge-label"><span>With TokenFlow — 5x surge</span><span>✅ Absorbed, zero errors</span></div>
+            <div class="surge-track"><div class="surge-fill ok w-100"></div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-flush-top">
+    <div class="container">
+      <div class="section-head">
+        <h2>Benchmark: monthly bill breakdown*</h2>
+        <p>A modeled $10,000/month enterprise AI bill, before and after.</p>
+      </div>
+      <div class="panel">
+        <div class="stack-bar">
+          <div class="stack-label"><span>Without TokenFlow</span><strong>$10,000 / month</strong></div>
+          <div class="stack-track">
+            <div class="stack-seg seg-a w-45">Expensive models for simple tasks (45%)</div>
+            <div class="stack-seg seg-b w-35">Idle reserved capacity (35%)</div>
+            <div class="stack-seg seg-c w-20">Retried/failed requests (20%)</div>
+          </div>
+        </div>
+        <div class="stack-bar">
+          <div class="stack-label"><span>With TokenFlow</span><strong>$4,200 / month</strong></div>
+          <div class="stack-track">
+            <div class="stack-seg seg-d w-30">Right-sized model tasks (30%)</div>
+            <div class="stack-seg seg-e w-15">True on-demand active (15%)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-flush-top">
+    <div class="container">
+      <div class="section-head">
+        <h2>Benchmark: developer experience*</h2>
+        <p>Handling multi-agent swarms and rate-limit resilience.</p>
+      </div>
+      <div class="panel dev-compare">
+        <div>
+          <h4>Without TokenFlow</h4>
+          <ul>
+            <li>⏳ Write 200+ lines of exponential backoff retry logic — 2–3 weeks of dev time</li>
+            <li>⚠️ Manually manage fallback models and API keys</li>
+            <li>😫 Debug broken agent loops at 2am</li>
+            <li>❌ Code changes needed across the entire stack</li>
+          </ul>
+        </div>
+        <div>
+          <h4>With TokenFlow</h4>
+          <ul>
+            <li>⚡ Change one line of code (endpoint URL) — done in 60 seconds</li>
+            <li>🛡️ Automatic failover to available backup models</li>
+            <li>🔌 Drop-in compatibility with OpenAI, LangChain, CrewAI</li>
+            <li>✅ Zero refactoring required</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-flush-top">
+    <div class="container">
+      <div class="section-head">
+        <h2>Why businesses and developers choose TokenFlow</h2>
+      </div>
+      <div class="grid-services">
+        <div class="card">
+          <div class="card-index">For the Business</div>
+          <h3>Never lose a customer to AI downtime</h3>
+          <p>Guaranteed reliability under load, and smarter routing that sends simple tasks to fast, low-cost models — reserving high-powered engines for complex reasoning.</p>
+        </div>
+        <div class="card">
+          <div class="card-index">For Developers</div>
+          <h3>Integrate in 60 seconds, sleep peacefully</h3>
+          <p>One-line drop-in integration. No rewriting retry loops or jitter timers — TokenFlow absorbs bursts and reroutes around outages automatically.</p>
+        </div>
+        <div class="card">
+          <div class="card-index">For Security &amp; CISOs</div>
+          <h3>100% private and non-custodial</h3>
+          <p>Runs inside your own private cloud or datacenter. TokenFlow never reads, logs, or trains on confidential prompts or customer data.</p>
+        </div>
+        <div class="card">
+          <div class="card-index">For Growth &amp; Scale</div>
+          <h3>Built for multi-agent AI</h3>
+          <p>Autonomous agent swarms multiply token traffic many times over. TokenFlow gives them the elastic headroom to complete complex tasks without hitting a wall.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-flush-top">
+    <div class="container">
+      <div class="pitch-banner">
+        <p>"TokenFlow is the intelligent shock absorber for enterprise AI. It's designed to cut your AI bill, handle large traffic surges without crashing, and plug into your existing code in under 60 seconds."</p>
+        <div class="pitch-badges">
+          <span>Up to 60% Cost Cut*</span>
+          <span>5x Traffic Headroom*</span>
+          <span>99.99% Target Uptime*</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-flush-top">
+    <div class="container">
+      <div class="panel disclaimer-panel">
+        <p><strong>* Disclaimer:</strong> All benchmark figures, percentages and dollar amounts marked with an asterisk on this page are illustrative, lab-based estimates from internal, simulated test scenarios and assumed pricing/usage patterns. They are not measured results from a live customer deployment, and not an independently audited or certified benchmark. They illustrate how TokenFlow is designed to behave, not a performance guarantee. Actual reliability, capacity and cost outcomes will vary by workload, model provider, and configuration.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-flush-top">
+    <div class="container panel">
+      <div class="section-head mb-0">
         <h2>Where we are</h2>
       </div>
       <div class="stats-grid">

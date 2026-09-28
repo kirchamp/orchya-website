@@ -1,3 +1,13 @@
 .DS_Store
 Thumbs.db
 *.log
+
+# Large source media: host launch videos on YouTube/Vimeo, never commit
+*.mp4
+*.mov
+
+# Local-only
+.claude/launch.json
+HANDOFF_DEPLOY.md
+GPT_FEEDBACK.md
+tokenflow-web/

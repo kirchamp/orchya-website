@@ -1,33 +1,22 @@
 # Orchya Tech Limited
-
-> London-based consulting firm operating across seven practice areas: project consulting, tech people consulting, human capital consulting, digital & AI transformation, product development, training & certification, and events.
-
-Orchya Tech Limited was incorporated on 05 August 2026 in England & Wales and is headquartered in London. It is founder-led by Mr Kiran Rangaiah Shashi (Director), an AI Architect with 18+ years in financial services technology, including nine years delivering enterprise AI and data platforms for a global wealth management bank, and recognition including a WealthTech Award in 2026.
-
-## Company details
-
+> London-based AI infrastructure company and maker of TokenFlow.
+## TokenFlow
+TokenFlow is a bring-your-own-key gateway for supported single-turn AI text requests. Developers use a TokenFlow gateway key alongside a provider key they control. The initial supported API shapes are OpenAI, Anthropic and Google Gemini, within the published compatibility boundaries.
+TokenFlow provides a consistent entry point, supported routing controls and request-level operational visibility. Provider pricing, availability, billing, credentials and rate limits remain with the provider and customer. TokenFlow does not guarantee provider availability, universal cost savings, speed, zero HTTP 429 responses, or compatibility with every IDE, desktop client, agent framework, multi-turn history, tool call or multimodal request.
+## Company facts
 - Legal name: Orchya Tech Limited
-- Incorporated: 05 August 2026
-- Jurisdiction: England & Wales
-- Registered office: 167-169 Great Portland Street, 5th Floor, London, W1W 5PF, United Kingdom
-- Director: Mr Kiran Rangaiah Shashi
-- Email: kiran.rangaiah-shashi@orchya.co.uk
-- Phone: +44 7787 030982
-
-## Practice areas
-
-- **Project Consulting** — PMO design and set-up, programme and delivery leadership, governance and reporting frameworks, vendor and supplier management.
-- **Tech People Consulting** — Contract and interim technical resourcing, permanent hire search for engineering leadership, technical vetting, workforce strategy.
-- **Human Capital Consulting** — Organisational design and restructuring, workforce planning, HR operating model and transformation, leadership advisory.
-- **Digital & AI Transformation** — Digital and AI strategy and roadmapping, applied AI and automation delivery, legacy modernisation, data operating model design.
-- **Product Development** — Product strategy and discovery, MVP and platform engineering delivery, UX/UI and architecture support, launch and scale support.
-- **Training & Certification** — Technical bootcamps and upskilling programmes, certification pathway design, corporate learning partnerships.
-- **Events** — Executive roundtables and briefings, industry and community meetups, panel and speaker programme curation.
-
-## Pages
-
-- [Home](https://www.orchya.co.uk/): Overview and practice areas
-- [Services](https://www.orchya.co.uk/services.html): Full detail on all seven practice areas
-- [About](https://www.orchya.co.uk/about.html): Company story, the Orchya name, leadership, company details
-- [Contact](https://www.orchya.co.uk/contact.html): Contact form and direct details
-- [Privacy Policy](https://www.orchya.co.uk/privacy.html): Data handling practices
+- Location: London, United Kingdom
+- Company number: 17383441
+- NVIDIA Inception Program: accepted company
+- Patent status: a US patent application related to broader research is pending; this is not a granted patent and does not expand the TokenFlow live product contract.
+## Primary links
+- Product homepage: https://www.orchya.co.uk/
+- Product guide: https://www.orchya.co.uk/product.html
+- Developer portal: https://tokenflow.orchya.co.uk/
+- Company: https://www.orchya.co.uk/about.html
+- Contact: https://www.orchya.co.uk/contact.html
+- Privacy: https://www.orchya.co.uk/privacy.html
+- X: https://x.com/OrchyaTech
+- YouTube: https://www.youtube.com/@OrchyaTech
+## Contact
+- Product support: support@orchya.co.uk

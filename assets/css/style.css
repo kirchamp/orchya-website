@@ -736,3 +736,17 @@ h1 { color: var(--text); }
 }
 .page-hero h1 { font-size: clamp(1.9rem, 3.6vw, 2.6rem); margin: 0 0 14px; }
 .page-hero p { color: var(--text-dim); max-width: 640px; margin: 0; }
+
+/* ---------- Launch room videos (vertical 9:16 YouTube Shorts) ---------- */
+.tf-launch-room{padding:52px;border-radius:18px;background:linear-gradient(125deg,#dedaff 0%,#f5f7ff 55%,#d6fff2 100%)}
+.tf-launch-room .section-head{margin-bottom:32px}
+.tf-videos{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.tf-video{margin:0;padding:14px;background:var(--panel);border:1px solid var(--border);border-radius:16px}
+.tf-video-frame{position:relative;aspect-ratio:9/16;max-height:560px;margin:0 auto;overflow:hidden;border-radius:10px;background:#0c1020}
+.tf-video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.tf-video figcaption{padding:16px 4px 4px}
+.tf-video .card-index{margin:0 0 8px;color:var(--accent);font:700 .72rem var(--mono);letter-spacing:.07em;text-transform:uppercase}
+.tf-video h3{margin:0 0 10px;font-size:1.05rem;line-height:1.25}
+.tf-video figcaption a{font-weight:700;font-size:.9rem}
+.tf-launch-cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
+@media(max-width:800px){.tf-launch-room{padding:26px 18px}.tf-videos{grid-template-columns:1fr;gap:20px}.tf-video{max-width:340px;width:100%;margin:0 auto}}
